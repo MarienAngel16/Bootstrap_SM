@@ -127,8 +127,36 @@ main .sobre-nosotros {
 }
 
 .contenido-texto p {
-    padding: 0px 0px 30px 15px;
-    font-weight: 300;
+    padding: 0px 0px 30px 15px; /*Para que haya espacios entre cada elemento*/
+    /*ARRIBA/DERECHA/ABAJO/IZQUIERDA*/
+    font-weight: 300; /*Arregla el grosor de la fuente*/
     text-align: justify;
+}
+
+/*Contendor de las tarjetas*/
+
+.contenedor-tarjetas
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.tarjeta
+{
+  padding: 0px 0px 30px 0px;
+  
+}
+
+.card
+{
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.card-body
+{
+    text-align: center;
+    align-items: center;
 }
 
