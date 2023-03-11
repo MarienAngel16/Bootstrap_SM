@@ -137,9 +137,10 @@ main .sobre-nosotros {
 
 .contenedor-tarjetas
 {
+    padding: 60px 0px 0px 0px;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
     
 }
 
@@ -160,3 +161,10 @@ main .sobre-nosotros {
     align-items: center;
 }
 
+/*Sección de avisos*/
+
+/*carrusel*/
+.contenedor-carrusel-enlaces
+{
+    padding: 60px;
+}
