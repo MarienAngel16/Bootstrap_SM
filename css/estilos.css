@@ -53,6 +53,7 @@ nav > a{
     margin-right: 15px; /*Le da un espaciado*/
     text-align: center;
     justify-content: center;
+    
         
 }
 
@@ -93,7 +94,7 @@ header .textos-header{
 
 /*About us*/
 main .sobre-nosotros {
-    padding: 30px 0 60px 0;
+    padding: 20px;
 }
 
 .contenedor-sobre-nosotros {
@@ -101,8 +102,14 @@ main .sobre-nosotros {
     justify-content: space-evenly;
 }
 
-.imagen-about-us {
-    width: 10%;
+.imagen-grupos {
+    width: 20%; 
+    height:auto;
+    background: #8A2387;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, hsla(23, 89%, 54%, 0.63), hsla(352, 79%, 58%, 0.603));
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, hsla(23, 89%, 54%, 0.637), hsla(352, 79%, 58%, 0.603));
 }
 
 .sobre-nosotros .contenido-texto {
@@ -166,5 +173,65 @@ main .sobre-nosotros {
 /*carrusel*/
 .contenedor-carrusel-enlaces
 {
-    padding: 60px;
+    
+    padding: 60px 0px 60px 0px;
+}
+
+.enlaces
+{
+    background: #8A2387;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, hsla(23, 89%, 54%, 0.63), hsla(352, 79%, 58%, 0.603)),
+            url(../img/ins2.jpg);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, hsla(23, 89%, 54%, 0.637), hsla(352, 79%, 58%, 0.603));
+        padding-top: 10px;
+        padding-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+           
+}
+
+.titulo-enlaces
+{
+        font-family: 'Lora', serif;
+        font-size: 40px;  
+        color: #fff;        
+}
+
+.contenedor-botones
+{
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+
+.boton-enlaces
+{
+    align-items: center;
+    text-decoration: none;
+        /*No hay decoración en el texto*/
+        border: none;
+        /*No hay borde en el botón*/
+        background-color:#878685;
+        /*Color del botón VERDE*/
+        text-align: center;
+        /*El texto esta centrado sobre su respectiva linea*/ 
+        font-size: 20px;
+        /*Es el tamaño de las letras*/
+        cursor: pointer;
+        /*El cursor a usar será apuntador, la manita*/
+        width: 500px;
+            /*Anchura del botón*/         
+        margin: 6px;
+            /*Le da un espaciado*/
+        border-radius: 5px;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+        color:white;
+}
+
+.boton-enlaces:hover
+{
+    background-color: #A09D9C;
+    box-shadow: 0 0 0px 0 rgba(0, 0, 0, .5);
 }
