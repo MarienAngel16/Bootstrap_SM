@@ -213,9 +213,10 @@ main .sobre-nosotros {
         /*Es el tamaño de las letras*/
         cursor: pointer;
         /*El cursor a usar será apuntador, la manita*/
-        width: 500px;
-            /*Anchura del botón*/         
-        margin: 6px;
+        width: 350px;
+            /*Anchura del botón*/
+        height: 43px;         
+        margin: 10px;
             /*Le da un espaciado*/
         border-radius: 5px;
         box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);

@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+.contenedor {
+    padding: 60px;
+    /*Establece el área de relleno en los cuatro lados de un elemento a la vez*/
+    /*En pocas palabras deja un espaciado de 60px entre cada contenedor*/
+    width: 90%;
+    /*El tamaño de los elementos del contenedor tienen un tamaño del 90%*/
+    max-width: 1000px;
+    /*Va a colocar un margen al contenido de la página*/
+    margin: auto;
+    overflow: hidden;
+    /*El contenido que se salga del margen lo recorta*/
+}
+
+.titulo {
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*Header*/
+header {
+    width: 100%;
+    height: 600px;
+    
+        background: #DA4453;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, hsla(317, 61%, 33%, 0.705), hsla(354, 67%, 56%, 0.705));
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, hsla(317, 61%, 33%, 0.705), hsla(354, 67%, 56%, 0.705)),            
+            url(../img/ilus1.png);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav>a {
+    color: aliceblue;
+    font-weight: 300;
+    /*Hará la letra más ligera*/
+    text-decoration: none;
+    /*Le quita el subrayado*/
+    margin-right: 15px;
+    /*Le da un espaciado*/
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+nav>a:hover {
+    text-decoration: underline;
+    /*Si el cursor esta encima de los enlaces se subrayan*/
+}
+
+.wave {
+    position: absolute;
+    bottom: -1%;
+    /*Indica que tan pegado esta el objeto del contenedor*/
+    width: 100%;
+}
+
+header .textos-header {
+    display: flex;
+    height: 430px;
+    /*Altura a la que queda el texto*/
+    width: 100%;
+    align-items: left;
+    /*Organiza al texto en el eje x*/
+    justify-content: center;
+    /*Organiza el texto en el eje y*/
+    flex-direction: column;
+    /*Permite a los renglones ponerse unos debajo de otros*/
+    text-align: center;
+
+}
+
+.textos-header h1 {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    color: white;
+}
+
+.textos-header h2 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    font-weight: 300;
+    /*Anchura de la fuente*/
+    color: white;
+}
+
+/*carrusel*/
+.contenedor-carrusel-enlaces {
+
+    padding: 60px 0px 60px 0px;
+}
+
+p
+{
+    text-align: center;
+}
+
+.descripcion
+{
+    font-size:400;
+    text-align: justify;
+}
+
+h3
+{text-align: center;}
+
+.carrusel
+{
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+}
+
+button
+{
+        text-decoration: none;
+        /*No hay decoración en el texto*/
+        border:none;
+        border-radius: 100px;
+        background: #DA4453;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #89216B, #DA4453);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #89216B, #DA4453);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        text-align: center;
+        /*El texto esta centrado sobre su respectiva linea*/       
+        cursor: pointer;
+        /*El cursor a usar será apuntador, la manita*/
+        width: 400px;
+        /*Anchura del botón*/
+        height:40px;        
+        /*Le da un espaciado*/
+        border-radius: 5px;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+        color: white;
+        
+       
+}
+
+button:hover
+{
+background: #DA4453;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(317, 61%, 33%, 0.863), hsla(354, 67%, 56%, 0.877));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(317, 61%, 33%, 0.849), hsla(354, 67%, 56%, 0.87));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.enlace-boton
+{
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;    
+    
+}
+
+section
+{
+    padding: 40px;
+}
+
+/*cambio de Backgound para secciones pares*/
+
+.par
+{
+    background-color: hsla(15, 2%, 62%, 0.295);
+}
+
+/* footer */
+
+footer {
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo {
+    text-align: center;
+}
+
+.content-foo h4 {
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p {
+    color: #ccc;
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+@media screen and (max-width:900px) {
+    header {
+        background-position: center;
+    }
+}
