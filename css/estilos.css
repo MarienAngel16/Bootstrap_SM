@@ -9,12 +9,7 @@ font-family: 'Lora', serif;
 }
 
 .contenedor{
-    padding: 60px; /*Establece el área de relleno en los cuatro lados de un elemento a la vez*/
-    /*En pocas palabras deja un espaciado de 60px entre cada contenedor*/
-    width: 90%; /*El tamaño de los elementos del contenedor tienen un tamaño del 90%*/
-    max-width:1000px ; /*Va a colocar un margen al contenido de la página*/
-    margin: auto;
-    overflow: hidden; /*El contenido que se salga del margen lo recorta*/
+    padding: 60px; /*Establece el área de relleno en los cuatro lados de un elemento a la vez*/    
 }
 
 .titulo{
