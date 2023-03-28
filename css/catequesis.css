@@ -188,6 +188,109 @@ section
     background-color: hsla(15, 2%, 62%, 0.295);
 }
 
+/*INICIO*/
+/*About us*/
+.imagen-grupos {
+    width: 100%;
+    height: auto;
+    border-radius: 40% 60% 61% 39% / 53% 50% 50% 47%;
+    
+}
+
+main .sobre-nosotros {
+    padding: 0px 0 0 0;
+}
+
+.sobre-nosotros h2
+{
+    text-align: left;
+}
+
+.contenido-texto h3 {
+    margin-bottom: 15px;
+}
+
+.sobre-nosotros h3 span {
+    background: #4d0686;
+    color: #fff;
+    border-radius: 5%;
+    display: inline-block;
+    text-align: center;    
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.contenido-texto p {
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/*Formulario*/
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.form{
+    margin:5%;
+    align-items: center;
+    text-align: center;
+}
+
+.form h4 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.controles {
+    width: 500px;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    font-family: 'calibri';
+    font-size: 20px;
+}
+
+.form p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    padding: 3%;
+}
+
+.form a {
+    color: white;
+    text-decoration: none;
+}
+
+.form a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form .botones {
+    width: 100%;
+    background: #16DE43;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+
+.form .botones:hover {
+    background: #149D33;
+}
+
 /* footer */
 
 footer {
@@ -226,6 +329,27 @@ footer {
     font-size: 24px;
     margin: 20px 0 0 0;
     color: #9e9797;
+}
+
+/*Parroco y vicario*/
+
+.cards-parroco .card-parroco {
+    background: #8A2387;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(23, 89%, 54%, 0.63), #e93f56d0),
+        url(../img/ins2.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(23, 89%, 54%, 0.719), hsla(352, 79%, 58%, 0.788));
+
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    align-items: center;
+
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
 }
 
 @media screen and (max-width:900px) {
