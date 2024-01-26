@@ -30,7 +30,27 @@ header {
             background: -webkit-linear-gradient(to right, hsla(317, 61%, 33%, 0.705), hsla(354, 67%, 56%, 0.705));
             /* Chrome 10-25, Safari 5.1-6 */
             background: linear-gradient(to right, hsla(317, 61%, 33%, 0.705), hsla(354, 67%, 56%, 0.705)),            
-            url(../img/ilus1.png);
+            url(
+                <?php
+    switch ($pagina_actual) {
+
+    case 'inicio': echo 'img/ins2.jpg';
+    break;
+    case 'catequesis': echo '../img/ins2.jpg';
+    break;
+    case 'grupos': echo '../img/ins2.jpg';
+    break;
+    case 'contacto': echo '../img/ins2.jpg';
+    break;
+
+
+    default:
+        // Código que se ejecuta si ninguna de las condiciones anteriores se cumple
+        break;
+}
+                ?>        
+            
+            );
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -50,7 +70,7 @@ nav > a{
     margin-right: 15px; /*Le da un espaciado*/
     text-align: center;
     justify-content: center;
-    font-size: 150%;
+    font-size: 150%;    
         
 }
 
@@ -173,29 +193,7 @@ main .sobre-nosotros {
 {
     background: #8A2387;
         /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, hsla(23, 89%, 54%, 0.63), hsla(352, 79%, 58%, 0.603)),
-            url(                
-                
-                <?php
-switch ($pagina_actual) {
-    case 'inicio':
-        echo 'img/ins2.jpg';
-        break;
-
-    case 'catequesis':
-    case 'grupos':
-    case 'contacto':
-        echo '../img/ins2.jpg';
-        break;
-
-    default:
-        // Código que se ejecuta si ninguna de las condiciones anteriores se cumple
-        break;
-}
-                ?>
-         
-          
-            );
+        background: -webkit-linear-gradient(to right, hsla(23, 89%, 54%, 0.63), hsla(352, 79%, 58%, 0.603));
         /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, hsla(23, 89%, 54%, 0.637), hsla(352, 79%, 58%, 0.603));
         padding-top: 10px;
@@ -598,19 +596,22 @@ font-size: 25px;
         <a href="catequesis.php" style="<?php echo ($pagina_actual == 'catequesis' || $pagina_actual == 'inicio') ? 'display: none;' : ''; ?>">Catequesis</a>
         <a href="grupos.php" style="<?php echo ($pagina_actual == 'grupos' || $pagina_actual == 'inicio') ? 'display: none;' : ''; ?>">Grupos Parroquiales</a>
         <a href="contacto.php" style="<?php echo ($pagina_actual == 'contacto' || $pagina_actual == 'inicio') ? 'display: none;' : ''; ?>">Contacto y Horarios</a>
-    </nav>
-
-    <?php
+    
+        <?php
     if ($pagina_actual == 'inicio') {
     echo'
-    <nav>
+    
         <a href="intranet/catequesis.php">Catequesis</a>
         <a href="intranet/grupos.php">Grupos Parroquiales</a>
         <a href="intranet/contacto.php">Contacto y Horarios</a>
-    </nav>';
-
+    ';
+    
     }
      ?>
+    
+    </nav>
+
+
 
 <!--     Menu para que se escojan las frases de cada página -->
 
