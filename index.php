@@ -4,15 +4,14 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-<link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>San Miguel Parroquia</title>
 
    <?php 
      $pagina_actual= 'inicio';
-     include_once "estilos.php";
+     include_once "general_styles/estilos.php";
    ?>
-
 
 </header>
 
@@ -266,7 +265,7 @@
     </main>
 
 <?php 
-include_once "footer.php";
+include_once "general_styles/footer.php";
 ?>
 
     <footer>
