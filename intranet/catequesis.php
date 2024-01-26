@@ -429,25 +429,5 @@
 include_once "../general_styles/footer.php";
 ?>
 
-    <footer>
-        <div class="contenedor-footer">
-            <div class="content-foo">
-                <h4>Phone</h4>
-                <p>7846262</p>
-            </div>
-    
-            <div class="content-foo">
-                <h4>Email</h4>
-                <p>7846262</p>
-            </div>
-    
-            <div class="content-foo">
-                <h4>Location</h4>
-                <p>7846262</p>
-            </div>
-        </div>
-        <h2 class="titulo-final">&copy; Mariana-Pérez-Escalona| Diseñadora Frontend</h2>
-    </footer>
-    
 </body>
 </html>

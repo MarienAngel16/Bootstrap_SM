@@ -6,6 +6,12 @@
     box-sizing:border-box;
 }
 
+ul {
+    list-style: disc; /* Para viñetas redondas */
+    color: black;
+    /* Otra opción: list-style: square; para viñetas cuadradas */
+}
+
 body{
 font-family: 'Lora', serif;
 }
@@ -20,6 +26,16 @@ font-family: 'Lora', serif;
     text-align: center;
     margin-bottom: 60px;
 }
+
+.icon {
+            width: 100px;
+            transition: all 0.3s ease; /* Agrega una transición suave para un efecto más agradable */
+        }
+
+        .icon:hover {
+            width: 110px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra al pasar el ratón */
+        }
 
 header {
     width: 100%;
@@ -605,7 +621,7 @@ font-size: 25px;
         <a href="intranet/grupos.php">Grupos Parroquiales</a>
         <a href="intranet/contacto.php">Contacto y Horarios</a>
     ';
-    
+
     }
      ?>
     
@@ -628,6 +644,11 @@ font-size: 25px;
 <section class="textos-header" style="display: <?php echo ($pagina_actual == 'grupos') ? 'display' : 'none'; ?>;">
     <h1>Alabando y santificando</h1>
     <h2>Somos Comunidad</h2>
+</section>
+
+<section class="textos-header" style="display: <?php echo ($pagina_actual == 'contacto') ? 'display' : 'none'; ?>;">
+    <h1>Comuniquen a todos el Evangelio</h1>
+    <h2>Somos Sal y Luz del Mundo</h2>
 </section>
 
     <!--Onda descargada de internet-->
