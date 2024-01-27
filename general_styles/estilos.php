@@ -377,16 +377,15 @@ section
 .par
 {
     background-color: hsla(15, 2%, 62%, 0.295);
+    
 }
+
+.group{
+        flex-direction: row-reverse;
+        /* Cambia la dirección para eventos pares */
+    }
 
 /*Formulario*/
-* {
-
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-
-}
 
 .form{
 margin:5%;
@@ -444,8 +443,6 @@ background: #149D33;
 }
 
 /* LÍNEA Y CONTENEDORES PARA LOS GRUPOS PARROQUIALES */
-
-/*Línea*/
 
 .hero {
     display: flex;

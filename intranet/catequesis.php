@@ -17,8 +17,8 @@
 
 <main>
 
-<section class="c_especial" id="c1">
-    <div class="container">
+<section class=" c_especial" id="c1">
+    <div class="container group">
         <div class="row">
             <div class="col-md-12">
                 <h2 class="titulo">Catequesis Especial</h2>
@@ -26,9 +26,9 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row group">
             <div class="col-md-6">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                <div id="carouselEspecial" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
                     <ol class="carousel-indicators">
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
@@ -54,11 +54,11 @@
                         </div>
                         
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <a class="carousel-control-prev" href="#carouselEspecial" role="button" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <a class="carousel-control-next" href="#carouselEspecial" role="button" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </a>
@@ -83,8 +83,7 @@
     </div>
 </section>
 
-
-<section class="c_catecumenado par" id="c2">
+<section class=" c_catecumenado par" id="c2">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -93,9 +92,9 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row group">
             <div class="col-md-6">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                <div id="carouselCatecumenos" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
                     <ol class="carousel-indicators">
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
@@ -121,11 +120,11 @@
                         </div>
                         
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <a class="carousel-control-prev" href="#carouselCatecumenos" role="button" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <a class="carousel-control-next" href="#carouselCatecumenos" role="button" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </a>
@@ -150,7 +149,7 @@
     </div>
 </section>
 
-<section class="c_comunion" id="c3">
+<section class=" c_comunion" id="c3">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -159,9 +158,9 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row group">
             <div class="col-md-6">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                <div id="carouselComunion" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
                     <ol class="carousel-indicators">
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
@@ -187,11 +186,11 @@
                         </div>
                         
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <a class="carousel-control-prev" href="#carouselComunion" role="button" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <a class="carousel-control-next" href="#carouselComunion" role="button" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </a>
@@ -216,7 +215,7 @@
     </div>
 </section>
 
-<section class="c_confirmacion par" id="c4">
+<section class=" c_confirmacion par" id="c4">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -225,9 +224,9 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row group">
             <div class="col-md-6">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                <div id="carouselConfirmacion" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
                     <ol class="carousel-indicators">
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
@@ -253,11 +252,11 @@
                         </div>
                         
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <a class="carousel-control-prev" href="#carouselConfirmacion" role="button" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <a class="carousel-control-next" href="#carouselConfirmacion" role="button" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </a>
