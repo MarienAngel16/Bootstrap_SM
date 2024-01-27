@@ -279,7 +279,7 @@ main .sobre-nosotros {
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
     align-items: center;
     
-    width: 80%;
+    width: 100%;
         max-width: 900px;
         margin: auto;
         overflow: hidden;
@@ -287,12 +287,12 @@ main .sobre-nosotros {
 }
 
 .cards-parroco .card-parroco img {
-    width:390px;
-    height:390px;
+    width:300px;
+    height:300px;
     object-fit: cover;
     border: 5px solid #fff;
     border-radius: 1000%;    
-    margin:10px 5px 10px 5px;
+    margin:10px 10px 10px 5px;
     align-items: center;   
       
 }
@@ -469,74 +469,35 @@ background: #149D33;
     position: relative;
 }
 
-<?php 
-if($pagina_actual=='grupos'){
-echo'
-.container::after {
-    /*La linea*/
-    content: "";
-    width: 10px;
-    height:95%;
-    background: #DA4453;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to up, hsla(236, 53%, 37%, 0.705), hsla(354, 67%, 56%, 0.705));
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to down, hsla(317, 61%, 33%, 0.705), hsla(56, 67%, 56%, 0.466));
-    position: absolute;
-    top: 5%;    
-    left: calc(50% - 1px);
-    z-index: 1;    
-}';
-}
-?>
-
 .evento {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 200px;
-    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 .evento::after {
-    /*El círculo que esta en la linea*/
-    content: "";
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-radius: 100px;
-    background: #DCDFD9;
-    border: 2px solid #1b3231;
-    position: absolute;
-    z-index: 2;
-    top: calc(50% - 9px);
-    left: calc(50% - 9px);
+    /* Elimina el círculo central en tamaños pequeños */
+    display: none;
 }
 
 .des_grupo {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    width: calc(45% + 20px);    
-    font-weight: normal;
-    flex-direction: column;
-    margin-top: 5%;
+    width: 80%;
+    text-align: center;
+    margin: 5% 10% 0% 10%;
 }
 
-.des_grupo h3 
-{
-font-size: 35px;
-text-align: center;
+.des_grupo h3 {
+    font-size: 20px;
 }
 
-.des_grupo p
-{
-text-align: center;
-font-size: 25px;
+.des_grupo p {
+    font-size: 16px;
 }
 
 .foto {
     /*Borde de las fotos*/
-    width: 42%;
+    width: 80%;
     border: 10px solid #fff;
     position: relative;
     box-shadow: 0px 0px 30px 0 rgba(0, 0, 0, .6);
@@ -544,39 +505,41 @@ font-size: 25px;
 }
 
 .foto::after {
-    /*El triangulo que esta al lado de las fotos*/
-    content: "";
-    display: block;
-    border: 20px solid transparent;
-    border-left: 20px solid #fff;
-    position: absolute;
-    right: -50px;
-    top: calc(50% - 20px);
+    /* Elimina el triángulo en tamaños pequeños */
+    display: none;
 }
 
 .foto img {
     width: 100%;
-    vertical-align: top;
-    /*hace que la imagen no se mueva del centro del marco*/
 }
 
-.evento:nth-child(even) {
-    flex-direction: row-reverse;
-    /*hace que el lo que esta adentro se coloque al reves*/
-}
+@media (min-width: 768px) {
+    .evento {
+        display:flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
 
-.evento:nth-child(even) .fecha {
-    justify-content: end;
-    /*hace que las fechas se justifiquen*/
-}
+    .evento:nth-child(even) {
+        flex-direction: row-reverse;
+        /* Cambia la dirección para eventos pares */
+    }
 
-.evento:nth-child(even) .foto::after {
-    /*Este no se que hace*/
-    content: "";
-    border: 20px solid transparent;
-    border-right: 20px solid #fff;
-    right: initial;
-    left: -50px;
+    .evento::after {
+        display: block;
+    }
+
+    .des_grupo {
+        width: 45%;
+    }
+
+    .foto {
+        width: 42%;
+    }
+
+    .foto::after {
+        display: block;
+    }
 }
 
 
