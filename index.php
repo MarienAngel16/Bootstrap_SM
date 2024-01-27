@@ -183,14 +183,14 @@
             <h2 class="titulo">Nuestros Párroco y Vicario</h2>
 
 <div class="cards-parroco">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div class="card-parroco">
                     <img src="img/parroco/parroco.png" alt="" class="img-fluid">
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <div class="card-parroco">
                     <div class="contenido-texto-card">
                         <h3 class="sub-name-p">PÁRROCO</h3>
@@ -212,14 +212,14 @@
 
 
 <div class="cards-parroco">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div class="card-parroco">
                     <img src="img/parroco/vicario.png" alt="" class="img-fluid">
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <div class="card-parroco">
                     <div class="contenido-texto-card">
                         <h3 class="sub-name-p">VICARIO</h3>
