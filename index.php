@@ -29,7 +29,7 @@
         <div class="col-md-3">                           
                     <div class="tarjeta">
                         <div class="card">
-                            <img src="img/1.png" alt="">
+                            <img src="img/catequesis/especial/foto1.png" alt="">
                             <div class="card-body">
                                 <h4 class="card-tittle">Catesismo Especial</h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, assumenda?</p>
@@ -42,7 +42,7 @@
         <div class="col-md-3">
             <div class="tarjeta">
                 <div class="card">
-                    <img src="img/1.png" alt="">
+                    <img src="img/catequesis/catecumenado/foto1.png" alt="">
                     <div class="card-body">
                         <h4 class="card-tittle">Catecumenado</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, assumenda?</p>
@@ -55,7 +55,7 @@
         <div class="col-md-3">
             <div class="tarjeta">
                 <div class="card">
-                    <img src="img/1.png" alt="">
+                    <img src="img/catequesis/comunion/foto1.png" alt="">
                     <div class="card-body">
                         <h4 class="card-tittle">Primera Comunión</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, assumenda?</p>
@@ -68,7 +68,7 @@
         <div class="col-md-3">
             <div class="tarjeta">
                 <div class="card">
-                    <img src="img/1.png" alt="">
+                    <img src="img/catequesis/confirmacion/foto1.png" alt="">
                     <div class="card-body">
                         <h4 class="card-tittle">Confirmación</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, assumenda?</p>
@@ -98,13 +98,13 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="img/1.png" alt="First slide">
+            <img class="d-block w-100" src="img/catequesis/comunion/foto1.png" alt="First slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="img/2.png" alt="Second slide">
+            <img class="d-block w-100" src="img/catequesis/especial/foto1.png" alt="Second slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="img/3.png" alt="Third slide">
+            <img class="d-block w-100" src="img/catequesis/confirmacion/foto1.png" alt="Third slide">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
@@ -134,7 +134,7 @@
         <a href="#"><button class="boton-enlaces">Descargable 5</button></a>
         <br>
         <a href="#"><button class="boton-enlaces">Descargable 6</button></a>
-        </div>
+        <br>
     </div>
 </div>
 
@@ -153,7 +153,7 @@
                     <div class="row">
 
                         <div class="col-md-6">
-                            <img src="img/4.png" class="imagen-grupos">
+                            <img src="img/grupos/escuela_pastoral.png" class="imagen-grupos">
                         </div>                        
                     
                         <div class="col-md-6">
@@ -181,61 +181,64 @@
 
         <section class="parroco-vicario contenedor">
             <h2 class="titulo">Nuestros Párroco y Vicario</h2>
-            <div class="cards-parroco">
 
-            <div class="container">
-                <div class="row">
-                      <div class="card-parroco">
-                    <div class="col-md-6">                        
-                        <img src="img/face2.jpg" alt="">                        
+<div class="cards-parroco">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card-parroco">
+                    <img src="img/parroco/parroco.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card-parroco">
+                    <div class="contenido-texto-card">
+                        <h3 class="sub-name-p">PÁRROCO</h3>
+                        <h4 class="name-p">Pbro. Doctor René Carrera Sanchez</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, nulla.</p>
+                        <ul class="descrip-p">
+                            <li>Estudio en</li>
+                            <li>Colaboró con</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                        </ul>
                     </div>
-                    <div class="col-md-6">
-                        <div class="contenido-texto-card">
-                            <h3 class="sub-name-p">PÁRROCO</h3>                            
-                            <h4 class="name-p">Pbro. Doctor René Carrera Sanchez</h4>                            
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, nulla.</p>
-                            <ul>
-                                <li>Estudio en </li>
-                                <li>Colaboró con</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    </div>        
-                                                         
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
-            <div class="cards-parroco">
-            
-                <div class="container">
-                    <div class="row">
-                        <div class="card-parroco">
-                            <div class="col-md-6">
-                                <img src="img/face2.jpg" alt="">
-                            </div>
-                            <div class="col-md-6">
-                                <div class="contenido-texto-card">
-                                    <h3 class="sub-name-p">VICARIO</h3>
-                                    <h4 class="name-p">Pbro. Juan José</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, nulla.</p>
-                                    <ul>
-                                        <li>Estudio en </li>
-                                        <li>Colaboró con</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-            
+
+<div class="cards-parroco">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card-parroco">
+                    <img src="img/parroco/vicario.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card-parroco">
+                    <div class="contenido-texto-card">
+                        <h3 class="sub-name-p">VICARIO</h3>
+                        <h4 class="name-p">Pbro. Juan José</h4>
+                        <p class="descrip-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, nulla.</p>
+                        <ul class="descrip-p">
+                            <li>Estudio en</li>
+                            <li>Colaboró con</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+
             
         </section>
 

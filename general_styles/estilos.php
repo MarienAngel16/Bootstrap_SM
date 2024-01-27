@@ -50,13 +50,13 @@ header {
                 <?php
     switch ($pagina_actual) {
 
-    case 'inicio': echo 'img/ins2.jpg';
+    case 'inicio': echo 'img/fondos/fondo1.png';
     break;
-    case 'catequesis': echo '../img/ins2.jpg';
+    case 'catequesis': echo '../img/fondos/fondo2.png';
     break;
-    case 'grupos': echo '../img/ins2.jpg';
+    case 'grupos': echo '../img/fondos/fondo3.png';
     break;
-    case 'contacto': echo '../img/ins2.jpg';
+    case 'contacto': echo '../img/fondos/fondo4.png';
     break;
 
 
@@ -223,14 +223,14 @@ main .sobre-nosotros {
 .titulo-enlaces
 {
         font-family: 'Lora', serif;
-        font-size: 40px;  
+        font-size: 30px;  
         color: #fff;        
 }
 
 .contenedor-botones
 {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 15px;
+        padding-bottom: 5%;
 }
 
 .boton-enlaces
@@ -244,14 +244,14 @@ main .sobre-nosotros {
         /*Color del botón VERDE*/
         text-align: center;
         /*El texto esta centrado sobre su respectiva linea*/ 
-        font-size: 20px;
+        font-size: 15px;
         /*Es el tamaño de las letras*/
         cursor: pointer;
         /*El cursor a usar será apuntador, la manita*/
-        width: 350px;
+        width: 250px;
             /*Anchura del botón*/
-        height: 43px;         
-        margin: 10px;
+        height: 35px;         
+        margin: 5px;
             /*Le da un espaciado*/
         border-radius: 5px;
         box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
@@ -266,10 +266,10 @@ main .sobre-nosotros {
 
 /*Parroco y vicario*/
 
-.cards-parroco .card-parroco {
+.cards-parroco  {
     background: #8A2387;
         /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, hsla(23, 89%, 54%, 0.63), #e93f56d0),
+        backround: -webkit-linear-gradient(to right, hsla(23, 89%, 54%, 0.63), #e93f56d0),
             url(../img/ins2.jpg);
         /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, hsla(23, 89%, 54%, 0.719), hsla(352, 79%, 58%, 0.788));
@@ -279,8 +279,8 @@ main .sobre-nosotros {
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
     align-items: center;
     
-    width: 90%;
-        max-width: 1000px;
+    width: 80%;
+        max-width: 900px;
         margin: auto;
         overflow: hidden;
     margin-top: 20px;
@@ -292,7 +292,7 @@ main .sobre-nosotros {
     object-fit: cover;
     border: 5px solid #fff;
     border-radius: 1000%;    
-    margin:10px;
+    margin:10px 5px 10px 5px;
     align-items: center;   
       
 }
@@ -314,6 +314,11 @@ color: white;
 text-align: center;
 padding-top: 15px;
 padding-bottom: 0px;
+}
+
+.descrip-p
+{
+    color: white;
 }
 
 /* DISEÑO DE BOTÓN Y FORMULARIO DE REGISTRO CATEQUESIS */
@@ -581,7 +586,14 @@ font-size: 25px;
 
 <!--SECCIÓN DEL ENCABEZADO PARA TODAS LAS PÁGINAS-->
 
-    <link rel="shortcut icon" href="img/ilustracion1.png" type="image/x-icon">
+    <link rel="shortcut icon" 
+
+    <?php 
+    if ($pagina_actual=='inicio'){ echo'href="img/favicon/favicon.png" ';
+    } else {echo'href="../img/favicon/favicon.png" ';}
+    ?>   
+    
+    type="image/x-icon">
 
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
