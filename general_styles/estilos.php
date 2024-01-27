@@ -338,13 +338,14 @@ button
         /*El texto esta centrado sobre su respectiva linea*/       
         cursor: pointer;
         /*El cursor a usar será apuntador, la manita*/
-        width: 400px;
+        width: 200px;
         /*Anchura del botón*/
         height:40px;        
         /*Le da un espaciado*/
         border-radius: 5px;
         box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
         color: white;
+        
         
        
 }
@@ -363,7 +364,8 @@ background: #DA4453;
 {
     align-items: center;
     text-align: center;
-    padding-top: 50px;    
+    padding-top: 50px; 
+     
     
 }
 

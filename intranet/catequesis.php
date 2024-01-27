@@ -18,7 +18,7 @@
 <main>
 
 <section class=" c_especial" id="c1">
-    <div class="container group">
+    <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <h2 class="titulo">Catequesis Especial</h2>
@@ -30,11 +30,11 @@
             <div class="col-md-6">
                 <div id="carouselEspecial" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
                     <ol class="carousel-indicators">
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+                        <li data-bs-target="#carouselEspecial" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselEspecial" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselEspecial" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#carouselEspecial" data-bs-slide-to="3"></li>
+                        <li data-bs-target="#carouselEspecial" data-bs-slide-to="4"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -71,15 +71,10 @@
                     <p>Suscitar la proclamación de las maravillas que Dios ha realizado en favor de los hombres mediante la celebración Litúrgica, dónde estos acontecimientos se hacen presentes y actuales.</p>
                     <h3>Misión</h3>
                     <p>Conducir al cristiano a recibir el Cuerpo y la Sangre de Cristo para cumplir el mandato que el Señor nos entregó en el memorial de su sacrificio como acción de gracias, alabanza al Padre y como presencia de Cristo por el poder de su Palabra y de su Espíritu.</p>
+                    <br>
+                    <div class="text-center"> <a href="#" class="enlace-boton"><button >Requisitos de Inscripción</button></a> </div>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <a href="#" class="enlace-boton"><button>Requisitos de Inscripción</button></a>
-            </div>
-        </div>
     </div>
 </section>
 
@@ -96,11 +91,11 @@
             <div class="col-md-6">
                 <div id="carouselCatecumenos" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
                     <ol class="carousel-indicators">
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+                        <li data-bs-target="#carouselCatecumenos" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselCatecumenos" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselCatecumenos" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#carouselCatecumenos" data-bs-slide-to="3"></li>
+                        <li data-bs-target="#carouselCatecumenos" data-bs-slide-to="4"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -137,15 +132,12 @@
                     <p>Suscitar la proclamación de las maravillas que Dios ha realizado en favor de los hombres mediante la celebración Litúrgica, dónde estos acontecimientos se hacen presentes y actuales.</p>
                     <h3>Misión</h3>
                     <p>Conducir al cristiano a recibir el Cuerpo y la Sangre de Cristo para cumplir el mandato que el Señor nos entregó en el memorial de su sacrificio como acción de gracias, alabanza al Padre y como presencia de Cristo por el poder de su Palabra y de su Espíritu.</p>
+                    <br>
+                    <div class="text-center"> <a href="#" class="enlace-boton"><button >Requisitos de Inscripción</button></a> </div>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-12">
-                <a href="#" class="enlace-boton"><button>Requisitos de Inscripción</button></a>
-            </div>
-        </div>
     </div>
 </section>
 
@@ -162,11 +154,11 @@
             <div class="col-md-6">
                 <div id="carouselComunion" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
                     <ol class="carousel-indicators">
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+                        <li data-bs-target="#carouselComunion" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselComunion" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselComunion" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#carouselComunion" data-bs-slide-to="3"></li>
+                        <li data-bs-target="#carouselComunion" data-bs-slide-to="4"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -203,20 +195,17 @@
                     <p>Suscitar la proclamación de las maravillas que Dios ha realizado en favor de los hombres mediante la celebración Litúrgica, dónde estos acontecimientos se hacen presentes y actuales.</p>
                     <h3>Misión</h3>
                     <p>Conducir al cristiano a recibir el Cuerpo y la Sangre de Cristo para cumplir el mandato que el Señor nos entregó en el memorial de su sacrificio como acción de gracias, alabanza al Padre y como presencia de Cristo por el poder de su Palabra y de su Espíritu.</p>
+                    <br>
+                    <div class="text-center"> <a href="#" class="enlace-boton"><button >Requisitos de Inscripción</button></a> </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="col-md-12">
-                <a href="#" class="enlace-boton"><button>Requisitos de Inscripción</button></a>
-            </div>
         </div>
     </div>
 </section>
 
 <section class=" c_confirmacion par" id="c4">
-    <div class="container">
+    <div class="container ">
         <div class="row">
             <div class="col-md-12">
                 <h2 class="titulo">Catequesis Especial</h2>
@@ -228,11 +217,11 @@
             <div class="col-md-6">
                 <div id="carouselConfirmacion" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
                     <ol class="carousel-indicators">
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
-                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+                        <li data-bs-target="#carouselConfirmacion" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselConfirmacion" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselConfirmacion" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#carouselConfirmacion" data-bs-slide-to="3"></li>
+                        <li data-bs-target="#carouselConfirmacion" data-bs-slide-to="4"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -269,15 +258,12 @@
                     <p>Suscitar la proclamación de las maravillas que Dios ha realizado en favor de los hombres mediante la celebración Litúrgica, dónde estos acontecimientos se hacen presentes y actuales.</p>
                     <h3>Misión</h3>
                     <p>Conducir al cristiano a recibir el Cuerpo y la Sangre de Cristo para cumplir el mandato que el Señor nos entregó en el memorial de su sacrificio como acción de gracias, alabanza al Padre y como presencia de Cristo por el poder de su Palabra y de su Espíritu.</p>
+                    <br>
+                    <div class="text-center"> <a href="#" class="enlace-boton"><button >Requisitos de Inscripción</button></a> </div>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-12">
-                <a href="#" class="enlace-boton"><button>Requisitos de Inscripción</button></a>
-            </div>
-        </div>
     </div>
 </section>
 
