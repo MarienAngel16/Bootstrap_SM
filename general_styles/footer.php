@@ -57,7 +57,7 @@ footer {
             </div>
 
             <div class="content-foo">
-                <h4>Email</h4>
+                <h4>Correo</h4>
                 <p>parroquiasanmiguelmo@gmail.com</p>
             </div>
 

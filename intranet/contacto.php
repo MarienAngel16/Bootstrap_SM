@@ -41,20 +41,20 @@ include_once "../general_styles/estilos.php"
 <div class="container">
     <div class="row ">
     <div class="col-md-12 align-items-center justify-content-center">
-        <a href="https://www.facebook.com" class="form" target="_blank">
+        <a href="https://www.facebook.com/sanmiguel.mo/?locale=es_LA" class="form" target="_blank">
             <img class="icon img-fluid" src="https://logopng.com.br/logos/facebook-13.png" alt="Facebook">
         </a>
 
-        <a href="https://www.google.com/maps" class="form" target="_blank">
+        <a href="https://maps.app.goo.gl/jB2NJSceSjDnrKRMA" class="form" target="_blank">
             <img class="icon img-fluid" src="https://logodownload.org/wp-content/uploads/2018/01/google-maps-logo.png" alt="Google Maps">
         </a>
-        <a href="https://www.youtube.com" class="form" target="_blank">
+        <a href="https://maps.app.goo.gl/jB2NJSceSjDnrKRMA" class="form" target="_blank">
             <img class="icon img-fluid" src="https://pngimg.com/uploads/youtube/youtube_PNG102354.png" alt="Youtube">
         </a>
-        <a href="mailto:correo@example.com" class="form">
+        <a href="mailto:parroquiasanmiguelarcangelmo@gmail.com" class="form">
             <img class="icon img-fluid" src="https://logos-world.net/wp-content/uploads/2020/11/Gmail-Logo.png" alt="Gmail">
         </a>
-        <a href="https://www.instagram.com" class="form" target="_blank">
+        <a href="https://www.instagram.com/sanmiguel_parroquia_mo/" class="form" target="_blank">
             <img class="icon img-fluid" src="http://pngimg.com/uploads/instagram/instagram_PNG10.png" alt="Instagram">
         </a>
 

@@ -38,19 +38,19 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="../img/catequesis/catecumenado/foto1.png" alt="First slide">
+                            <img class="d-block w-100" src="../img/catequesis/especial/foto1.png" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="../img/catequesis/catecumenado/foto2.png" alt="Second slide">
+                            <img class="d-block w-100" src="../img/catequesis/especial/foto2.png" alt="Second slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="../img/catequesis/catecumenado/foto3.png" alt="Third slide">
+                            <img class="d-block w-100" src="../img/catequesis/especial/foto3.png" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="../img/catequesis/catecumenado/foto4.png" alt="Fourth slide">
+                            <img class="d-block w-100" src="../img/catequesis/especial/foto4.png" alt="Fourth slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="../img/catequesis/catecumenado/foto5.png" alt="Fifth slide">
+                            <img class="d-block w-100" src="../img/catequesis/especial/foto5.png" alt="Fifth slide">
                         </div>
                         
                     </div>
@@ -162,19 +162,19 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="../img/catequesis/catecumenado/foto1.png" alt="First slide">
+                            <img class="d-block w-100" src="../img/catequesis/comunion/foto1.png" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="../img/catequesis/catecumenado/foto2.png" alt="Second slide">
+                            <img class="d-block w-100" src="../img/catequesis/comunion/foto2.png" alt="Second slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="../img/catequesis/catecumenado/foto3.png" alt="Third slide">
+                            <img class="d-block w-100" src="../img/catequesis/comunion/foto3.png" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="../img/catequesis/catecumenado/foto4.png" alt="Fourth slide">
+                            <img class="d-block w-100" src="../img/catequesis/comunion/foto4.png" alt="Fourth slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="../img/catequesis/catecumenado/foto5.png" alt="Fifth slide">
+                            <img class="d-block w-100" src="../img/catequesis/comunion/foto5.png" alt="Fifth slide">
                         </div>
                         
                     </div>
@@ -225,19 +225,19 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="../img/catequesis/catecumenado/foto1.png" alt="First slide">
+                            <img class="d-block w-100" src="../img/catequesis/confirmacion/foto1.png" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="../img/catequesis/catecumenado/foto2.png" alt="Second slide">
+                            <img class="d-block w-100" src="../img/catequesis/confirmacion/foto2.png" alt="Second slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="../img/catequesis/catecumenado/foto3.png" alt="Third slide">
+                            <img class="d-block w-100" src="../img/catequesis/confirmacion/foto3.png" alt="Third slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="../img/catequesis/catecumenado/foto4.png" alt="Fourth slide">
+                            <img class="d-block w-100" src="../img/catequesis/confirmacion/foto4.png" alt="Fourth slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="../img/catequesis/catecumenado/foto5.png" alt="Fifth slide">
+                            <img class="d-block w-100" src="../img/catequesis/confirmacion/foto5.png" alt="Fifth slide">
                         </div>
                         
                     </div>
