@@ -262,3 +262,27 @@
         </div>
     </div>
 </section>
+
+
+
+<!--     Menu para que se escojan las frases de cada página -->
+
+<section class="textos-header" style="display: <?php echo ($pagina_actual == 'inicio') ? 'display' : 'none'; ?>;">
+<h1>¿Quién como Dios?</h1>
+<h2>Nadie como Dios</h2>
+</section>
+
+<section class="textos-header" style="display: <?php echo ($pagina_actual == 'catequesis') ? 'display' : 'none'; ?>;">
+<h1>Libres para liberar</h1>
+<h2>No hay mejor maestro que Jesús</h2>
+</section>
+
+<section class="textos-header" style="display: <?php echo ($pagina_actual == 'grupos') ? 'display' : 'none'; ?>;">
+<h1>Alabando y santificando</h1>
+<h2>Somos Comunidad</h2>
+</section>
+
+<section class="textos-header" style="display: <?php echo ($pagina_actual == 'contacto') ? 'display' : 'none'; ?>;">
+<h1>Comuniquen a todos el Evangelio</h1>
+<h2>Somos Sal y Luz del Mundo</h2>
+</section>

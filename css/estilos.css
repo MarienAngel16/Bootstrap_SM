@@ -36,43 +36,6 @@ font-family: 'Lora', serif;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra al pasar el ratón */
         }
 
-header {
-    width: 100%;
-    height: 600px;
-    
-        background: #DA4453;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, hsla(317, 61%, 33%, 0.705), hsla(354, 67%, 56%, 0.705));
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, hsla(317, 61%, 33%, 0.705), hsla(354, 67%, 56%, 0.705)),            
-            url(
-                <?php
-    switch ($pagina_actual) {
-
-    case 'inicio': echo 'img/fondos/fondo1.png';
-    break;
-    case 'catequesis': echo '../img/fondos/fondo2.png';
-    break;
-    case 'grupos': echo '../img/fondos/fondo3.png';
-    break;
-    case 'contacto': echo '../img/fondos/fondo4.png';
-    break;
-
-
-    default:
-        // Código que se ejecuta si ninguna de las condiciones anteriores se cumple
-        break;
-}
-                ?>        
-            
-            );
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-}
-
-
 nav{
     text-align: right;
     padding: 30px 50px 0 0;
