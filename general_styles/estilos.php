@@ -287,15 +287,15 @@ main .sobre-nosotros {
 }
 
 .cards-parroco .card-parroco img {
-    width:300px;
-    height:300px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border: 5px solid #fff;
-    border-radius: 1000%;    
-    margin:10px 10px 10px 5px;
-    align-items: center;   
-      
+    border-radius: 50%;  /* Utiliza 50% en lugar de 1000% para un círculo perfecto */
+    display: block;
+    margin: 10px auto;
 }
+
 
 .contenido-texto-card {
     width: 100%;
@@ -318,9 +318,18 @@ padding-bottom: 0px;
 
 .descrip-p
 {
+    font-family: 'Lora', serif;
+    font-size: 15px;   
     color: white;
+    text-align: center;
 }
 
+.descrip-ul
+{
+    font-family: 'Lora', serif;
+    font-size: 18px;   
+    color: white;    
+}
 /* DISEÑO DE BOTÓN Y FORMULARIO DE REGISTRO CATEQUESIS */
 button
 {

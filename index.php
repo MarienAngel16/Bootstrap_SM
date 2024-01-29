@@ -188,15 +188,16 @@
             <div class="col-md-5">
                 <div class="card-parroco">
                     <img src="img/parroco/parroco.png" alt="" class="img-fluid">
+                    <p class="descrip-p">
+                        Como vicario parroquial, apoyo al párroco bajo la autoridad del obispo diocesano. Mi labor es enseñar, guiar espiritualmente y asistir a la comunidad para contribuir a su bienestar espiritual y material.</p>
                 </div>
             </div>
             <div class="col-md-7">
                 <div class="card-parroco">
                     <div class="contenido-texto-card">
                         <h3 class="sub-name-p">PÁRROCO</h3>
-                        <h4 class="name-p">Pbro. Doctor René Carrera Sanchez</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, nulla.</p>
-                        <ul class="descrip-p">
+                        <h4 class="name-p">Pbro. Doctor René Carrera Sanchez</h4>                        
+                        <ul class="descrip-ul">
                             <li>Estudio en</li>
                             <li>Colaboró con</li>
                             <li>Lorem ipsum dolor sit amet.</li>
@@ -217,20 +218,21 @@
             <div class="col-md-5">
                 <div class="card-parroco">
                     <img src="img/parroco/vicario.png" alt="" class="img-fluid">
+                    <p class="descrip-p">
+                        Como vicario parroquial, apoyo al párroco bajo la autoridad del obispo diocesano. Mi labor es enseñar, guiar espiritualmente y asistir a la comunidad para contribuir a su bienestar espiritual y material.</p>
+                   </div>
                 </div>
-            </div>
             <div class="col-md-7">
                 <div class="card-parroco">
                     <div class="contenido-texto-card">
                         <h3 class="sub-name-p">VICARIO</h3>
-                        <h4 class="name-p">Pbro. Juan José</h4>
-                        <p class="descrip-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, nulla.</p>
-                        <ul class="descrip-p">
-                            <li>Estudio en</li>
-                            <li>Colaboró con</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
+                        <h4 class="name-p">Pbro. Juan José Godinez Gomez</h4>                        
+                        <ul class="descrip-ul">
+                            <li>Formado en el Seminario Diocesano Guadalupano de Cuautitlán </li>
+                            <li>Ordenado Diácono el 4 de diciembre del 2020 por S. E. R Obispo D. Guillermo Ortiz Mondragón</li>
+                            <li>Ordenado Presbítero el 18 de noviembre del 2021 por S. E. R. Arzobispo José Antonio Fernández Hurtado</li>
+                            <li>Nombrado Vicario Parroquial en San Francisco de Asís, Apaxco el 18 de noviembre de 2021</li>
+                            <li>Nombrado Vicario Parroquial en San Miguel Arcángel Melchor Ocampo el primero de noviembre de 2022</li>
                         </ul>
                     </div>
                 </div>
