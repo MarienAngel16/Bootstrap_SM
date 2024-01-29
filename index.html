@@ -5,12 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Página Principal</title>
+<!--PAGINA ACTUAL -->
+<script>
+        var pagina_actual= 'inicio';
+</script>
 
-    <?php 
-     $pagina_actual= 'inicio';
-     include_once "general_styles/estilos.php";
-   ?>
+<!--CSS -->
+<link rel="stylesheet" href="css/estilos.css">
+
+<!-- CARGA DINÁMICA DE ENCABEZADO -->
+<div id="encabezado"></div>
+<script>
+  fetch('general_styles/encabezado.html')
+    .then(response => response.text())
+    .then(html => document.getElementById('encabezado').innerHTML = html);
+</script>
+
+
+    <title>Página Principal</title>
 
 
 </header>
@@ -268,10 +280,13 @@
         </section>-->
     </main>
 
-<?php 
-include_once "general_styles/footer.php";
-?>
-
+<!-- CARGA DINÁMICA DE FOOTER -->
+<div id="footer"></div>
+<script>
+  fetch('general_styles/footer.html')
+    .then(response => response.text())
+    .then(html => document.getElementById('footer').innerHTML = html);
+</script>
 
 </body>
 </html>
