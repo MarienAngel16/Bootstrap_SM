@@ -1,4 +1,4 @@
-<section class="c_especial" id="c1">
+<!-- <section class="c_especial" id="c1">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -262,12 +262,12 @@
         </div>
     </div>
 </section>
-
+ -->
 
 
 <!--     Menu para que se escojan las frases de cada página -->
 
-<section class="textos-header" style="display: <?php echo ($pagina_actual == 'inicio') ? 'display' : 'none'; ?>;">
+<!-- <section class="textos-header" style="display: <?php echo ($pagina_actual == 'inicio') ? 'display' : 'none'; ?>;">
 <h1>¿Quién como Dios?</h1>
 <h2>Nadie como Dios</h2>
 </section>
@@ -286,3 +286,53 @@
 <h1>Comuniquen a todos el Evangelio</h1>
 <h2>Somos Sal y Luz del Mundo</h2>
 </section>
+ -->
+
+
+
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Carrusel Bootstrap</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="../img/fondos/fondo1.png" alt="Primera imagen">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../img/fondos/fondo2.png" alt="Segunda imagen">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../img/fondos/fondo3.png" alt="Tercera imagen">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Siguiente</span>
+  </a>
+</div>
+
+<!-- Bootstrap JavaScript y Popper.js (necesarios para algunos componentes de Bootstrap) -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
