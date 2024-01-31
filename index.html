@@ -12,7 +12,7 @@
             width: 100%;
             height: 600px;
             background: #DA4453;
-            background: -webkit-linear-gradient(to right, hsla(317, 61%, 33%, 0.705), hsla(354, 67%, 56%, 0.705));
+            background: -webkit-linear-gradient(to right, hsla(199, 100%, 51%, 0.705), hsla(354, 67%, 56%, 0.705));
             background: linear-gradient(to right, hsla(317, 61%, 33%, 0.705), hsla(354, 67%, 56%, 0.705)),
                 url('img/fondos/fondo1.png');  /* Establece el fondo predeterminado */
 
@@ -26,6 +26,15 @@
 <link rel="stylesheet" href="css/estilos.css">
 
 <!-- CARGA DINÁMICA DE ESTILO BOOTSTRAP ENCABEZADO -->
+<style class="hover-nav">
+nav > a:hover {
+    text-decoration: underline;
+    /* Si el cursor está encima de los enlaces se subrayan */
+    color: aliceblue;    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Agrega sombra al texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+</style>
 <div id="encabezado">
 
 </div>
@@ -231,11 +240,82 @@
         </section>
 
 
-        <section class="parroco-vicario contenedor">
+<style>
+/*Parroco y vicario*/
+
+/* Estilos personalizados para la columna */
+.cards-parroco {
+    background: linear-gradient(to bottom, #2ecc71, #27ae60);
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.card-parroco {
+    text-align: center;
+}
+
+/* Otros estilos para .card-parroco (pueden compartirse entre ambos) */
+.name-p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.sub-name-p {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.img-fluid {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.descrip-p {
+    font-size: 18px;
+}
+
+.descrip-ul {
+    font-size: 16px;
+    list-style-type: none;
+    padding: 0;
+}
+
+</style>
+
+
+        <section class="parroco-vicario ">
             <h2 class="titulo">Nuestros Párroco y Vicario</h2>
 
             <div class="container">
                 <div class="row">
+                    <div class="col-md-6">
+                        <div class="cards-parroco">            
+                          <div class="card-parroco">
+                            <h3 class="name-p">PÁRROCO</h3>
+                            <h4 class="sub-name-p">Pbro. Dr. René Carrera Sanchez</h4> 
+                            <img src="img/parroco/parroco.png" alt="" class="img-fluid">
+                            <p class="descrip-p">
+                              Como vicario parroquial, apoyo al párroco bajo la autoridad del obispo diocesano. Mi labor es enseñar, guiar espiritualmente y asistir a la comunidad para contribuir a su bienestar espiritual y material.
+                            </p>                        
+                            <h3 class="sub-name-p">Estudios y Formación</h3>
+                            <br>
+                            <ul class="descrip-ul">
+                              <li>Formado en el Seminario Diocesano Guadalupano de Cuautitlán </li>
+                              <li>Ordenado Diácono el 4 de diciembre del 2020 por S. E. R Obispo D. Guillermo Ortiz Mondragón</li>
+                              <li>Ordenado Presbítero el 18 de noviembre del 2021 por S. E. R. Arzobispo José Antonio Fernández Hurtado</li>
+                              <li>Nombrado Vicario Parroquial en San Francisco de Asís, Apaxco el 18 de noviembre de 2021</li>
+                              <li>Nombrado Vicario Parroquial en San Miguel Arcángel Melchor Ocampo el primero de noviembre de 2022</li>
+                            </ul> 
+                          </div>                        
+                        </div>
+                      </div>
                   <div class="col-md-6">
                     <div class="cards-parroco">            
                       <div class="card-parroco">
@@ -244,7 +324,8 @@
                         <img src="img/parroco/vicario.png" alt="" class="img-fluid">
                         <p class="descrip-p">
                           Como vicario parroquial, apoyo al párroco bajo la autoridad del obispo diocesano. Mi labor es enseñar, guiar espiritualmente y asistir a la comunidad para contribuir a su bienestar espiritual y material.
-                        </p>
+                        </p>                        
+                        <h3 class="sub-name-p">Estudios y Formación</h3>
                         <br>
                         <ul class="descrip-ul">
                           <li>Formado en el Seminario Diocesano Guadalupano de Cuautitlán </li>
@@ -256,34 +337,10 @@
                       </div>                        
                     </div>
                   </div>
-                  <div class="col-md-6"></div>
-                </div>
               </div>
             
         </section>
 
-        
-
-
-        <!--<section class="about-services">
-            <div class="contenedor">
-                <h2 class="titulo">Nuestros Servicios</h2>
-                <div class="servicio-cont">
-                    <div class="servicio-ind">
-                        <img src="img/ilus1.png" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, libero?</p>
-                    </div>
-
-                    <div class="servicio-ind">
-                        <img src="img/ilus2.png" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, libero?</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>-->
     </main>
 
 <!-- CARGA DINÁMICA DE FOOTER -->

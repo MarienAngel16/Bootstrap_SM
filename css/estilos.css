@@ -48,10 +48,15 @@ nav > a{
         
 }
 
-nav>a:hover {   
-    text-decoration: underline;
-    /*Si el cursor esta encima de los enlaces se subrayan*/
-    }
+nav > a:hover {
+    text-decoration: none;
+    /* Si el cursor está encima de los enlaces se subrayan */
+    color: aliceblue;
+    font-size: 1.2em; /* Ajusta el tamaño de la fuente al pasar el ratón */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Agrega sombra al texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 .wave{
     position: absolute;
@@ -221,51 +226,6 @@ main .sobre-nosotros {
     background-color: #A09D9C;
     box-shadow: 0 0 0px 0 rgba(0, 0, 0, .5);
 }
-
-/*Parroco y vicario*/
-
- /* Estilos personalizados para la columna */
- .cards-parroco {
-    background: linear-gradient(to bottom, #2ecc71, #3498db);
-    padding: 20px;
-    color: white;
-    border-radius: 15px;
-    margin-top: 20px;
-  }
-
-  .card-parroco {
-    text-align: center;
-  }
-
-  .name-p {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 10px;
-  }
-
-  .sub-name-p {
-    font-size: 20px;
-    margin-top: 5px;
-  }
-
-  .img-fluid {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border: 5px solid #fff;
-    border-radius: 50%;
-    margin: 10px auto;
-  }
-
-  .descrip-p {
-    font-size: 18px;
-  }
-
-  .descrip-ul {
-    font-size: 16px;
-    list-style-type: none;
-    padding: 0;
-  }
 
 /* DISEÑO DE BOTÓN Y FORMULARIO DE REGISTRO CATEQUESIS */
 button
