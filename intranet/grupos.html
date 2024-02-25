@@ -237,6 +237,31 @@ Nuestro propósito es debatir juntos algún pasaje de la Escritura para que reve
 
 <!-- CARGA DINÁMICA DE FOOTER -->
 <div id="footer"></div>
+
+<!-- Carga de Alerta de Preguntas para Grupos -->
+
+<div id="customModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h3 >¿Te interesa pertenecer a un grupo? ¡Te invitamos a preguntar en la oficina parroquial!</h3>
+    </div>
+</div>
+
+<script>
+    window.onload = function() {
+        openModal();
+    }
+
+    function openModal() {
+        document.getElementById('customModal').style.display = 'block';
+    }
+
+    function closeModal() {
+        document.getElementById('customModal').style.display = 'none';
+    }
+</script>
+
+<!-- LLAMADA DE FOOTER -->
 <script>
   fetch('../general_styles/footer.html')
     .then(response => response.text())
