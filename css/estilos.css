@@ -282,12 +282,6 @@ section
 
 /*cambio de Backgound para secciones pares*/
 
-.par
-{
-    background-color: hsla(15, 2%, 62%, 0.295);
-    
-}
-
 .group{
         flex-direction: row-reverse;
         /* Cambia la dirección para eventos pares */
