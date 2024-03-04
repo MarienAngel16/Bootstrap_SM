@@ -82,7 +82,7 @@ header .textos-header {
     text-align: center;
     /* Asegúrate de que el texto no se vea afectado por la posición absoluta del logo */
     position: relative;
-    margin-left: /* Ancho del logo más un espacio adicional */;
+   
 }
 
 
