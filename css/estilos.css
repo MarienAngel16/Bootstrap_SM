@@ -23,14 +23,14 @@ font-family: 'Lora', serif;
 }
 
 .icon {
-            width: 100px;
-            transition: all 0.3s ease; /* Agrega una transición suave para un efecto más agradable */
-        }
+    width: 100px;
+    transition: all 0.3s ease; /* Agrega una transición suave para un efecto más agradable */
+}
 
-        .icon:hover {
-            width: 110px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra al pasar el ratón */
-        }
+.icon:hover {
+    width: 110px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra al pasar el ratón */
+}
 
 nav{
     text-align: right;
