@@ -28,8 +28,7 @@ font-family: 'Lora', serif;
 }
 
 .icon:hover {
-    width: 110px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra al pasar el ratón */
+    width: 110px;    
 }
 
 nav{
@@ -57,23 +56,35 @@ nav > a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
 .wave{
     position: absolute;
     bottom: -1%; /*Indica que tan pegado esta el objeto del contenedor*/
     width: 100%;    
 }
 
-header .textos-header{
-    display:flex;
-    height: 430px; /*Altura a la que queda el texto*/
-    width: 100%;
-    align-items: left; /*Organiza al texto en el eje x*/
-    justify-content:center ; /*Organiza el texto en el eje y*/
-    flex-direction: column; /*Permite a los renglones ponerse unos debajo de otros*/
-    text-align: center;
-
+/* Alinea el logo-header a la izquierda de la pantalla */
+.logo-header {
+    width: 350px;
+    position: absolute;
+    left: 40px;
+    top: 20%; /* Otra opción puede ser bottom: 50%; para alinear desde abajo */
+    transform: translateY(-50%);
 }
+
+/* Estilo para el contenedor del texto */
+header .textos-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    /* Asegúrate de que el texto no se vea afectado por la posición absoluta del logo */
+    position: relative;
+    margin-left: /* Ancho del logo más un espacio adicional */;
+}
+
 
 .textos-header h1{
     font-family: 'Lora',serif;

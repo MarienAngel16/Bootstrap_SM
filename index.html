@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="img/iconos/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/favicon.png" type="image/x-icon">
+
+
     <title>Párroquia San Miguel Arcángel Melchor Ocampo Estado de México| Sitio Web Oficial</title>
 
 <!-- FONDO CON DEGRADADO -->
@@ -44,13 +50,21 @@ nav > a:hover {
 
   
 
-<!-- ENLACES PARA OTRAS PÁGINAS -->
+<!-- ENLACES PARA OTRAS PÁGINAS Y MENÚ HAMBURGUESA-->
 
-<nav>
+<div class="menu-toggle" id="mobile-menu">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<nav>    
     <a href="intranet/catequesis.html" id="catequesisLink">Catequesis</a>
-    <a href="intranet/grupos.html" id="gruposLink">Grupos Parroquiales</a>
-    <a href="intranet/contacto.html" id="contactoLink">Contacto y Horarios</a>
+    <a href="intranet/grupos.html" id="gruposLink">Grupos</a>
+    <a href="intranet/contacto.html" id="contactoLink">Horarios</a>
 </nav>
+
+<img class="logo-header"  src="img/logo.png" alt="">
 
 <section class="textos-header">
     <h1>¿Quién como Dios?</h1>
@@ -368,19 +382,19 @@ nav > a:hover {
                     <h3 style="text-align: center;">Te invitamos a seguir nuestras redes sociales</h3>
                 <div class="col-md-12 align-items-center justify-content-center">
                     <a href="https://www.facebook.com/sanmiguel.mo?locale=es_LA" class="form" target="_blank">
-                        <img class="icon img-fluid" src="../img/iconos/face.png" alt="Facebook">
-                    </a>
-                    <a href="https://maps.app.goo.gl/jB2NJSceSjDnrKRMA" class="form" target="_blank">
-                        <img style="width: 6%;"  class="icon img-fluid" src="../img/iconos/maps.png" alt="Google Maps">
+                        <img  class="icon" src="img/iconos/face.png" alt="Facebook">
                     </a>
                     <a href="https://www.youtube.com/@ParroquiaSanMiguelArcangel_MO" class="form" target="_blank">
-                        <img class="icon img-fluid" src="../img/iconos/youtube.png" alt="Youtube">
+                        <img class="icon " src="img/iconos/youtube.png" alt="Youtube">
                     </a>
                     <a href="mailto:parroquiasanmiguelarcangelmo@gmail.com" class="form" target="_blank">
-                        <img class="icon img-fluid" src="../img/iconos/gmail.png">
+                        <img class="icon " src="img/iconos/gmail.png">
+                    </a>
+                    <a href="https://maps.app.goo.gl/jB2NJSceSjDnrKRMA" class="form" target="_blank">
+                        <img  class="icon " src="img/iconos/maps.png" alt="Google Maps">
                     </a>
                     <a href="https://www.instagram.com/sanmiguel_parroquia_mo/" class="form" target="_blank">
-                        <img class="icon img-fluid" src="../img/iconos/insta.png" alt="Instagram">
+                        <img class="icon " src="img/iconos/insta.png" alt="Instagram">
                     </a>
             
                     </div>
@@ -390,8 +404,6 @@ nav > a:hover {
             </section>
 
     </main>
-
-    
 
 <!-- CARGA DINÁMICA DE FOOTER -->
 <div id="footer"></div>
